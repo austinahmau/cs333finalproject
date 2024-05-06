@@ -37,3 +37,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Run tests for code
+      run: |
+        python -m unittest -v test_operations.py
+        python -m unittest -v test_converter.py
