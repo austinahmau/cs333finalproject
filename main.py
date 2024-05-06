@@ -49,3 +49,6 @@ for i in range(len(operations)):
   elif(operations[i] == "LSL"):
     result = calculations.bitwise_shift_left(operands1[i], operands2[i])
     print("LSL: " + operands1[i] + " >> " + operands2[i] + " = " + "0x" + result[2:].upper())
+
+  else:
+    print(operations[i] + " is not a valid command")
