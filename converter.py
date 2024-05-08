@@ -10,5 +10,3 @@ class Converter:
   def hex_to_decimal(self, hex_number):
     decimal_number = int(hex_number, 16)
     return decimal_number
-
-random stuff
