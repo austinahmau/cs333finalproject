@@ -63,3 +63,5 @@ class Operations:
     dec2 = converter.hex_to_decimal(operand2)
     result = dec1 >> dec2
     return hex(result)
+  
+stuff
